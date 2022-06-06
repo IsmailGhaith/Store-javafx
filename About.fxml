@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.AboutController">
+   <children>
+      <Pane layoutX="-5.0" prefHeight="62.0" prefWidth="441.0" style="-fx-background-color: #FFCC99;">
+         <children>
+            <Label layoutX="80.0" layoutY="-4.0" prefHeight="70.0" prefWidth="283.0" text="About Project">
+               <font>
+                  <Font name="Bell MT" size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox layoutX="14.0" layoutY="78.0" prefHeight="358.0" prefWidth="140.0">
+         <children>
+            <Label lineSpacing="10.0" text="Names:">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="12.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="completion date:">
+               <VBox.margin>
+                  <Insets left="10.0" top="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="131.0" text="Project supervisor:">
+               <VBox.margin>
+                  <Insets left="10.0" top="12.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Project Description">
+               <VBox.margin>
+                  <Insets left="10.0" top="13.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="176.0" layoutY="78.0" prefHeight="358.0" prefWidth="246.0">
+         <children>
+            <TextArea prefHeight="193.0" prefWidth="246.0" style="-fx-color: bold;" text="1- Mohammed Khalil Zaqout.&#10;2- Ismail Gaith. &#10;&#10;At 5/27/2022.&#10;&#10;Eng: Ismail Jabr Al-Helou.&#10;&#10;This project talks about a store&#10;that sells products and this&#10; awe was accomplished at the end&#10; of the visual programming course.&#10;&#10;">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextArea>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
